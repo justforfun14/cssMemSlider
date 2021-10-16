@@ -9,21 +9,59 @@
     </head>
     <body>
         <div class="container container-wrapper">
-            <div class="input-wrapper">
-                <input id="i1" type="radio" name="input_radio" checked />
-                <input id="i2" type="radio" name="input_radio" />
-                <input id="i3" type="radio" name="input_radio" />
-                <input id="i4" type="radio" name="input_radio" />
-            </div>
-
+            <input id="i1" type="radio" name="input_radio" checked />
+            <input id="i2" type="radio" name="input_radio" />
+            <input id="i3" type="radio" name="input_radio" />
+            <input id="i4" type="radio" name="input_radio" />
             <div class="slider slider-wrapper">
-                <div class="slides slides-wrapper"></div>
-                <div class="text text-wrapper"></div>
-                <div class="labels labels-wrapper">
-                    <label class="label-wrapper__item" for="i1"></label>
-                    <label class="label-wrapper__item" for="i2"></label>
-                    <label class="label-wrapper__item" for="i3"></label>
-                    <label class="label-wrapper__item" for="i4"></label>
+                <div class="slides slides-wrapper" id="slider">
+                    <img
+                        src="../cssMemSlider/assets/img/meme1.jpg"
+                        alt="meme"
+                        class="img-slide"
+                    />
+                    <img
+                        src="../cssMemSlider/assets/img/meme1.jpg"
+                        alt="meme"
+                        class="img-slide"
+                    />
+                    <img
+                        src="../cssMemSlider/assets/img/meme1.jpg"
+                        alt="meme"
+                        class="img-slide"
+                    />
+                    <img
+                        src="../cssMemSlider/assets/img/meme1.jpg"
+                        alt="meme"
+                        class="img-slide"
+                    />
+                </div>
+                <div class="underslides-wrapper">
+                    <div class="text-wrapper">
+                        <div class="text">
+                            <div class="text__item">Lorem1</div>
+                            <div class="text__item">Lorem2</div>
+                            <div class="text__item">Lorem3</div>
+                            <div class="text__item">Lorem4</div>
+                        </div>
+                    </div>
+                    <div class="bullets bullets-wrapper">
+                        <label class="label-wrapper__item" for="i1">
+                            <div class="label-div first-bullet"></div>
+                        </label>
+
+                        <label class="label-wrapper__item" for="i2">
+                            <div class="label-div second-bullet"></div>
+                        </label>
+
+                        <label class="label-wrapper__item" for="i3">
+                            <div class="label-div third-bullet"></div>
+                        </label>
+
+                        <label class="label-wrapper__item" for="i4">
+                            <div class="label-div fourth-bullet"></div>
+                        </label>
+                    </div>
                 </div>
             </div>
         </div>
