@@ -256,8 +256,28 @@ h1 {
         align-items: center;
     }
 
+    .bullets-wrapper {
+        margin: 0;
+    }
     .bullets {
         order: -1;
+    }
+
+    .label-wrapper__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .label-div {
+        width: 10px;
+        height: 10px;
     }
 
     .text-wrapper {
